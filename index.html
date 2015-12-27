@@ -46,7 +46,9 @@
   <script src="http://dinsosbl.github.io/js/js-flickr-gallery.min.js"></script>
   <script src=""></script>
   <script>
-$( "img" ).unwrap().unwrap();
+$( document ).ready(function() {
+    $( img ).unwrap();
+});
 </script>
 </body>
 </html>
